@@ -5,13 +5,26 @@
   <title>Ngclitest</title>
   <base href="/ngclitest/">
 
+
+<script src="https://www.gstatic.com/firebasejs/live/3.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyChsFu6pDf-6Cp7ETrBn52b3q0IAZYuPrI",
+    authDomain: "test-9724c.firebaseapp.com",
+    databaseURL: "https://test-9724c.firebaseio.com",
+    storageBucket: "test-9724c.appspot.com",
+  };
+  firebase.initializeApp(config);
+</script>
+    
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body>
   <ngclitest-app>Loading...</ngclitest-app>
 
-  
+
 
     <script src="vendor/es6-shim/es6-shim.js"></script><script src="vendor/reflect-metadata/Reflect.js"></script><script src="vendor/systemjs/dist/system.src.js"></script><script src="vendor/zone.js/dist/zone.js"></script>
     <script>
@@ -20,7 +33,7 @@
       }).catch(console.error.bind(console));
     </script>
 
-  
+
 
 
 
